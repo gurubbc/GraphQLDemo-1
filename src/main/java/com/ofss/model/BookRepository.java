@@ -37,15 +37,15 @@ public class BookRepository {
 		books.add(new Book(1,
 				"Reactive Spring",
 				484,
-				authorRepository.findByName("Josh Long")));
+				authorRepository.findByName("Josh")));
 		books.add(new Book(2,
 				"Spring Boot Up & Running",
 				328,
-				authorRepository.findByName("Mark Heckler")));
+				authorRepository.findByName("Mark")));
 		books.add(new Book(3,
 				"Hacking with Spring Boot 2.3",
 				392,
-				authorRepository.findByName("Greg Turnquist")));
+				authorRepository.findByName("Greg")));
 		books.add(new Book(4,
 				"From Amateur to Architects",
 				600,

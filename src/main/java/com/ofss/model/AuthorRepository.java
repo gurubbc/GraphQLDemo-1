@@ -31,8 +31,9 @@ public class AuthorRepository {
     }
 
     public Author findByName(String name) {
+    	System.out.println("findByName "+name);
         return authors.stream()
-                .filter(author -> author.getFirstName()!=null)
+                .filter(author -> (author.getFirstName()).equals(name))
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Author not found"));
     }
