@@ -8,10 +8,10 @@
         <version>2.7.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>dev.danvega</groupId>
+    <groupId>com.ofss</groupId>
     <artifactId>spring-books</artifactId>
     <packaging>war</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1</version>
     <name>spring-books</name>
     <description>hello-graphql</description>
     <properties>
